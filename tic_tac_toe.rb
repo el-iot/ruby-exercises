@@ -94,7 +94,7 @@ class Game
 
   def render_board
     @board.rows.each do |row|
-      print(row.map { |e| render_element(e) })
+      print(row.map { |e| render_element(e) }.join(' | '))
       puts
     end
   end
