@@ -6,6 +6,7 @@ class Game
     @finished = false
     @code = 'ABCDE'
     @turn = 1
+    puts 'Welcome to Mastermind!'
   end
 
   def play
